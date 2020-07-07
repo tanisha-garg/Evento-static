@@ -1,0 +1,154 @@
+/* body{
+    background-color: cornsilk;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Metal+Mania&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Patua+One&display=swap');
+body{
+    padding-top: 59px;
+}
+.navbar-nav li{
+    padding: 0px 10px;
+}
+.carousel-item {
+    height: 300px;
+  }
+  
+  /* .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 300px;
+  } */
+  .jumbotron{
+    padding: 20px 0px 30px 0px;
+      margin: 0px auto;
+      background-image: url('/img/plan_event.jpg');
+      background-size: cover;
+  }
+  .step-list{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 20px;
+  }
+  .jbcontent{
+      margin: 0px auto;
+  }
+  .carousel-indicators li{
+    background-color: black;
+    border-radius: 100%;
+    border: solid .5px white;
+    
+}
+
+.carousel.carousel-fade .carousel-item {
+    opacity: 0;
+    transition: opacity ease-out .7s;
+}
+
+.carousel.carousel-fade .carousel-item.active {
+    opacity: 1 !important;
+}
+.carousel-item img {
+    position: absolute;
+    padding: 20px 20px;
+    top: 0;
+    left: 0;
+}
+.carousel-container{
+    margin: 0px auto;
+    padding: 5px 5px;
+    background-image: url(/img/dark_bg.jpg);
+}
+.card{
+    margin: 0px auto;
+    width: 25rem;
+    font-family: cursive;
+}
+.card-heading{
+    font-family: 'Times New Roman', Times, serif;
+}
+.card-btn:hover{
+    color:white;
+}
+.card-btn{
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer-container{
+    background-color: black;
+    color: white;
+}
+.address-info{
+    color: #D4AAA0;
+}
+.link-div{
+    color: rgb(180, 170, 167);
+}
+.link-div:hover{
+    color: white;
+}
+.social-list li{
+    display: inline-block;
+    padding: 10px;
+}
+.vl{
+    border: 1px solid white;
+    margin-top: 10px;
+}
+.event-container{
+    padding: 40px 0px 55px 0px;
+}
+.event-class{
+    /* width: 40rem; */
+    height: 3rem;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.btn-event{
+    height: 3rem;
+    border-radius: 10px;
+}
+.about-us-container{
+    background-image: url(/img/light-bg.jpg);
+    background-size: cover;
+    padding: 20px 20px;
+}
+.about-heading h2{
+    font-family: 'Metal Mania', cursive;
+}
+.about-content p{
+    font-family: 'Lato', sans-serif;
+}
+.connections-container{
+    padding: 10px 10px;
+}
+.blog-heading h2{
+    font-family: 'Patua One', cursive;
+}
+.blog-content{
+    font-family: 'Montserrat', sans-serif;;
+}
+.connections-list li{
+    padding: 5px;
+}
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px;
+    border-bottom: 1px ridge black;
+    min-height: 400px;
+ }
+ #login-btn{
+     cursor: pointer;
+ }
+ #sign-up-btn{
+    cursor: pointer;
+}
+.modal-header {
+    background: black;
+    color: floralwhite;
+ }
+.modal-header .close {
+      color: floralwhite;
+ }
+  
+  .modal-body {
+    background: #D1C4E9; }
+  
