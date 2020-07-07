@@ -33,7 +33,7 @@ body{
       margin: 0px auto;
   }
   .carousel-indicators li{
-    background-color: black;
+    background-color: white;
     border-radius: 100%;
     border: solid .5px white;
     
@@ -137,9 +137,11 @@ body{
  }
  #login-btn{
      cursor: pointer;
+     text-decoration: none;
  }
  #sign-up-btn{
     cursor: pointer;
+    text-decoration: none;
 }
 .modal-header {
     background: black;
