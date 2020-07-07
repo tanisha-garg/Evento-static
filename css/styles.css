@@ -124,7 +124,7 @@ body{
     font-family: 'Patua One', cursive;
 }
 .blog-content{
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
 }
 .connections-list li{
     padding: 5px;
@@ -152,5 +152,16 @@ body{
  }
   
   .modal-body {
-    background: #D1C4E9; }
+    background: #D1C4E9; 
+}
+.register-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.register-img{
+    background-size: cover;
+}
+.col-form-label{
+    font-weight: 500;;
+}
   
