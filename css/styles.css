@@ -144,7 +144,7 @@ body{
     text-decoration: none;
 }
 .modal-header {
-    background: black;
+    background: #464646;
     color: floralwhite;
  }
 .modal-header .close {
@@ -152,7 +152,7 @@ body{
  }
   
   .modal-body {
-    background: #D1C4E9; 
+    background: #f4f4f4; 
 }
 .register-heading{
     font-family: 'Montserrat', sans-serif;
